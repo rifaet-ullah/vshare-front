@@ -1,6 +1,8 @@
 <template>
   <div class="w-full min-h-screen">
-    <head class="px-6 py-2 flex justify-between items-center">
+    <head
+      class="w-full px-6 py-2 bg-white fixed flex justify-between items-center"
+    >
       <div class="flex items-center">
         <button class="mr-2">
           <svg
@@ -29,7 +31,7 @@
             />
           </svg>
         </button>
-        <span class="text-2xl">Title</span>
+        <span class="text-2xl">FreeTube</span>
       </div>
       <div>
         <div class="border-2 rounded-full flex items-center">
@@ -163,7 +165,7 @@
         </div>
       </div>
     </head>
-    <main>
+    <main class="pt-14">
       <slot></slot>
     </main>
   </div>
